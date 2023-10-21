@@ -1,7 +1,7 @@
 list_score = []
 list_duo = []
 list_some = []
-list_finall = []
+list_final = []
 for _ in range(int(input())):
     name = input()
     score = float(input())
@@ -16,10 +16,10 @@ for i in sort_list:
         list_some.append(i)
 
 for j in list_some:
-    list_finall.append(j[1])
+    list_final.append(j[1])
 
 for z in list_some:
-    if z[1] == min(list_finall):
+    if z[1] == min(list_final):
         print(z[0])
     else:
         pass
